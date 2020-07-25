@@ -61,7 +61,7 @@
 			controlsTutorial: true,
 
 			// Determines where controls appear, "edges" or "bottom-right"
-			controlsLayout: 'bottom-right',
+			controlsLayout: 'edges',
 
 			// Visibility rule for backwards navigation arrows; "faded", "hidden"
 			// or "visible"
@@ -233,7 +233,12 @@
 			focusBodyOnPageVisibilityChange: true,
 
 			// Transition style
+			// transition: 'none', // none/fade/slide/convex/concave/zoom
+			// transition: 'fade', // none/fade/slide/convex/concave/zoom
 			transition: 'slide', // none/fade/slide/convex/concave/zoom
+			// transition: 'convex', // none/fade/slide/convex/concave/zoom
+			// transition: 'concave', // none/fade/slide/convex/concave/zoom
+			// transition: 'zoom', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
 			transitionSpeed: 'default', // default/fast/slow
